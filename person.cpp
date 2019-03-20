@@ -58,6 +58,7 @@ float Person::totalPay() {
   float total = hoursWorked * payRate;
   return total;
 }
+
 string Person::fullName() {
   string fullName = firstName + " " + lastName;
   return fullName;
